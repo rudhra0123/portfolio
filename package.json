@@ -1,4 +1,5 @@
 {
+  "homepage": "https://your-github-rudhra0123.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,7 @@
     "react-icons": "^4.7.1",
     "react-markdown": "^8.0.5",
     "react-parallax-tilt": "^1.7.90",
-    "react-pdf": "^6.2.2",
+    "react-pdf": "^9.2.1",
     "react-router-dom": "^6.7.0",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.42.2",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +51,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "pdfjs-dist": "^3.2.146"
+    "pdfjs-dist": "^4.10.38"
   }
 }

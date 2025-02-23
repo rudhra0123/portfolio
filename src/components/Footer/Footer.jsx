@@ -7,10 +7,11 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import logo from "../../assets/sLogo.png";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
-    let date = new Date();
-    let year = date.getFullYear();
+    // let date = new Date();
+    // let year = date.getFullYear();
     return (
       <Container fluid className="footer">
         <Row>
@@ -19,13 +20,13 @@ const Footer = () => {
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © 2026</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
+                  href="https://github.com/rudhra0123"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,18 +37,18 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
+                  href="https://www.instagram.com/rudh_raaa_varma/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="twitter"
                 >
-                  <AiOutlineTwitter />
+                  <FaInstagram />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://www.linkedin.com/in/manthina-venkata-siva-rama-raju-25352a277/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -56,17 +57,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://leetcode.com/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="leetcode"
-                >
-                  <SiLeetcode />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

@@ -769,8 +769,5 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
-  .img-fluid
-  {
-    border:1px solid black !important;
-  }
+   
   
